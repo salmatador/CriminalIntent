@@ -48,6 +48,7 @@ public class CrimeListFragment extends Fragment {
 
         public CrimeHolder(View itemView){
             super(itemView);
+            itemView.setOnClickListener(this);
 
             mTitleTextView = (TextView) itemView.findViewById(R.id.list_item_crime_title_text_view);
             mDateTextView = (TextView) itemView.findViewById(R.id.list_item_crime_date_text_view);
