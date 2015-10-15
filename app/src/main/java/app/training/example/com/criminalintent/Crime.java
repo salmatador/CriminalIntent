@@ -3,9 +3,6 @@ package app.training.example.com.criminalintent;
 import java.util.Date;
 import java.util.UUID;
 
-/**
- * Created by Micah on 10/14/2015.
- */
 public class Crime {
 
     private UUID mId;
